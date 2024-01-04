@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="8.694" tests="3" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="JOB_NAME" value="SelenOnJenkTest_MavenPlug"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:9191/job/SelenOnJenkTest_MavenPlug/7/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="D:\JenkinsHome"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="8b5fa98395b50f38"/>
+    <property name="POM_ARTIFACTID" value="SelenMavePro"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="SelenMavePro"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\User\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="User"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="SelenOnJenkTest_MavenPlug"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:9191/job/SelenOnJenkTest_MavenPlug/7/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="OneDrive" value="C:\Users\User\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="LOCALAPPDATA" value="C:\Users\User\AppData\Local"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="User"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="maven.conf" value="C:\Program Files\Maven\apache-maven-3.9.1\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="=::" value="::\"/>
+    <property name="SCITE_USERHOME" value="C:\Users\User\AppData\Local\AutoIt v3\SciTE"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:9191/job/SelenOnJenkTest_MavenPlug/7/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\User\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:9191/job/SelenOnJenkTest_MavenPlug/7/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:9191/job/SelenOnJenkTest_MavenPlug/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="WS-02636159"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\User"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="WS-02636159"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="selen"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-SelenOnJenkTest_MavenPlug-7"/>
+    <property name="JENKINS_SERVER_COOKIE" value="8b5fa98395b50f38"/>
+    <property name="HUDSON_URL" value="http://localhost:9191/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\User"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Maven\apache-maven-3.9.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Maven\apache-maven-3.9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\.dotnet\tools;C:\Users\User\AppData\Roaming\npm;."/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\User\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files\Maven\apache-maven-3.9.1"/>
+    <property name="java.class.path" value="D:\JenkinsHome\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.14.jar;C:\Program Files\Maven\apache-maven-3.9.1\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\Maven\apache-maven-3.9.1/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\Maven\apache-maven-3.9.1 D:\JenkinsHome\war\WEB-INF\lib\remoting-3107.v665000b_51092.jar D:\JenkinsHome\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar D:\JenkinsHome\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar 63895"/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="Path" value="C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Maven\apache-maven-3.9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\.dotnet\tools;C:\Users\User\AppData\Roaming\npm"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="M2_HOME" value="C:\Program Files\Maven\apache-maven-3.9.1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="=D:" value="D:\Jenkins"/>
+    <property name="HUDSON_HOME" value="D:\JenkinsHome"/>
+    <property name="PATH+MAVEN" value="C:\Program Files\Maven\apache-maven-3.9.1/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:9191/job/SelenOnJenkTest_MavenPlug/7/"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="user.dir" value="D:\gitler"/>
+    <property name="JOB_URL" value="http://localhost:9191/job/SelenOnJenkTest_MavenPlug/"/>
+    <property name="LOGONSERVER" value="\\WS-02636159"/>
+    <property name="USERDOMAIN" value="WS-02636159"/>
+    <property name="MAVEN_HOME" value="C:\Program Files\Maven\apache-maven-3.9.1"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="JENKINS_URL" value="http://localhost:9191/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="D:\JenkinsHome\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar"/>
+    <property name="WORKSPACE_TMP" value="D:\JenkinsHome\workspace\SelenOnJenkTest_MavenPlug@tmp"/>
+    <property name="WORKSPACE" value="D:\JenkinsHome\workspace\SelenOnJenkTest_MavenPlug"/>
+    <property name="maven3.interceptor.common" value="D:\JenkinsHome\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar"/>
+    <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase name="setUp" classname="tests.TestsForRun" time="8.132">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 120.0.6099.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;WS-02636159&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	GetHandleVerifier [0x00C0A813+48355]&#10;	(No symbol) [0x00B9C4B1]&#10;	(No symbol) [0x00AA5358]&#10;	(No symbol) [0x00AC61AC]&#10;	(No symbol) [0x00AC1EF3]&#10;	(No symbol) [0x00AC0579]&#10;	(No symbol) [0x00AF0C55]&#10;	(No symbol) [0x00AF093C]&#10;	(No symbol) [0x00AEA536]&#10;	(No symbol) [0x00AC82DC]&#10;	(No symbol) [0x00AC93DD]&#10;	GetHandleVerifier [0x00E6AABD+2539405]&#10;	GetHandleVerifier [0x00EAA78F+2800735]&#10;	GetHandleVerifier [0x00EA456C+2775612]&#10;	GetHandleVerifier [0x00C951E0+616112]&#10;	(No symbol) [0x00BA5F8C]&#10;	(No symbol) [0x00BA2328]&#10;	(No symbol) [0x00BA240B]&#10;	(No symbol) [0x00B94FF7]&#10;	BaseThreadInitThunk [0x75ADFCC9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77727C6E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77727C3E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 120.0.6099.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WS-02636159', ip: '192.168.1.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00C0A813+48355]
+	(No symbol) [0x00B9C4B1]
+	(No symbol) [0x00AA5358]
+	(No symbol) [0x00AC61AC]
+	(No symbol) [0x00AC1EF3]
+	(No symbol) [0x00AC0579]
+	(No symbol) [0x00AF0C55]
+	(No symbol) [0x00AF093C]
+	(No symbol) [0x00AEA536]
+	(No symbol) [0x00AC82DC]
+	(No symbol) [0x00AC93DD]
+	GetHandleVerifier [0x00E6AABD+2539405]
+	GetHandleVerifier [0x00EAA78F+2800735]
+	GetHandleVerifier [0x00EA456C+2775612]
+	GetHandleVerifier [0x00C951E0+616112]
+	(No symbol) [0x00BA5F8C]
+	(No symbol) [0x00BA2328]
+	(No symbol) [0x00BA240B]
+	(No symbol) [0x00B94FF7]
+	BaseThreadInitThunk [0x75ADFCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77727C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77727C3E+238]
+
+	at tests.TestsForRun.setUp(TestsForRun.java:16)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 13398
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testBox" classname="tests.TestsForRun" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 120.0.6099.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;WS-02636159&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	GetHandleVerifier [0x00C0A813+48355]&#10;	(No symbol) [0x00B9C4B1]&#10;	(No symbol) [0x00AA5358]&#10;	(No symbol) [0x00AC61AC]&#10;	(No symbol) [0x00AC1EF3]&#10;	(No symbol) [0x00AC0579]&#10;	(No symbol) [0x00AF0C55]&#10;	(No symbol) [0x00AF093C]&#10;	(No symbol) [0x00AEA536]&#10;	(No symbol) [0x00AC82DC]&#10;	(No symbol) [0x00AC93DD]&#10;	GetHandleVerifier [0x00E6AABD+2539405]&#10;	GetHandleVerifier [0x00EAA78F+2800735]&#10;	GetHandleVerifier [0x00EA456C+2775612]&#10;	GetHandleVerifier [0x00C951E0+616112]&#10;	(No symbol) [0x00BA5F8C]&#10;	(No symbol) [0x00BA2328]&#10;	(No symbol) [0x00BA240B]&#10;	(No symbol) [0x00B94FF7]&#10;	BaseThreadInitThunk [0x75ADFCC9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77727C6E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77727C3E+238]&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="tests.TestsForRun" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -2,6 +2,7 @@ package tests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -21,10 +22,17 @@ public class TestsForRun {
 		driver.get("http://seleniumhq.org");
 	}
 	
+	@AfterMethod
+	public void makePause() {
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	@AfterTest
 	public void tearDown() {
 		driver.close();
 	}
-
-
 }
