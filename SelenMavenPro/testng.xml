@@ -3,7 +3,17 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="tests.TestsForRun"/>
+    	<class name="tests.TestsForRun">
+      	<methods>
+      		<include name="testBox"></include>
+      	</methods>
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+
+
+
+
+      
+
